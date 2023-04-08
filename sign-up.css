@@ -1,0 +1,40 @@
+.hero{
+padding-left: 30%;
+}
+#sign-up{
+color: #FF703F;
+}
+#sign-up-submit{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #FF703F;
+  color: #FCFCFB;
+  transition: all 0.3s ease;
+  margin-left: 2.5%;
+  margin-top: 1.5%;
+}
+
+
+.sign-up-field {
+    border: 2px solid #FF703F;
+    border-radius: 4px;
+    align-items: center;
+    padding: 0px 0px 5px 5px;
+    color: #182D32;
+    outline:none;
+  }
+  #email-field{
+   margin-top: 1%;
+  }
+  #password-field{
+    margin-top: 1%;
+   }
+   #confirm-password-field{
+    margin-top: 1%;
+   }
