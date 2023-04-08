@@ -6,16 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Savings </title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="savings.css">
+    <link rel="stylesheet" href="login-page.css">
 </head>
 <body>
-    <main id="main-holder">
-    <div class="elements">
-        <h1>My Saving Goal</h1>
-        <h3>Total savings</h3>
-        <h3> Add money: <input id="number" type="number" /></h3>
+      <!-- Navbar Section -->
+  <nav class="navbar">
+    <a class="navbar-brand" href="/"></a>
+    <div class="logo-image">
+      <img src="logo.jpeg" class="img-fluid">
+    </div>
+    </a>
+    <div class="navbar__container">
+
+      <a href="#home" id="navbar__logo">Shoot for the Moon!</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">Job Match</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__links" id="services-page">Agencies</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <img src="assets/Bitcamp_MoonHouseTop_copy.png" alt="" width="auto" height="auto" class="sticky-img">
+    <div class="hero">
+    <div class="form">
+        <h1 class="form-header">My Saving Goal</h1>
+        <br>
+        <h3 class="form-header" id="money"><div class="money-float">$</div><div class="money-float" id="current">0</div><div class="money-float">/$</div><div class="money-float" id="goal">0</div></h3>
+        <br>
+        <h3 class="form-header"> Add money: <input class="form-field" id="number" type="number" /></h3>
+        <br>
+        <input type="submit" value="Enter" class="form-submit">
     </div>
    
-   </main>
+</div>
+</div>
+<div id="marshmallow-grass">
+  <img src="assets/Bitcamp_Marshyalone_copy.png" width="auto" height="auto" class="fix">
+</div>
+<script src="app.js">
+
+</script>
 </body>
 </html>

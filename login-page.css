@@ -23,17 +23,17 @@ body {
   
 }
 
-#login-header {
+.form-header {
   color: #FF703F;
 }
-#login-form {
+.form {
   align-self: flex-start;
   display: grid;
   justify-items: center;
   align-items: center;
 }
 
-.login-form-field {
+.form-field {
   border: 2px solid #FF703F;
   border-radius: 4px;
   align-items: center;
@@ -42,7 +42,7 @@ body {
   outline:none;
 }
 
-#login-form-submit{
+.form-submit{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +56,7 @@ body {
   transition: all 0.3s ease;
 }
 
-#login-form-submit:hover {
+.form-submit:hover {
   color: #528DA7;
   transition: all 0.3s ease;
 }
