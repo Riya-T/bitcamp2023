@@ -202,8 +202,6 @@
 
 /* Hero Section */
 .hero {
-    background: #fff;
-    background: linear-gradient(to right, #f6f6f6, #fff);
     padding: 200px 0;
 }
 
@@ -278,7 +276,6 @@
 
 /* About Section */
 .main {
-    background-color: #fff;
     padding: 10rem 0;
 }
 
@@ -732,3 +729,17 @@ img.img-fluid {
     height: 50px;
     width: 50px;
 }
+
+
+/*Anything below this was added for Bitcamp - do not remove*/
+
+body {
+    background-image: url("assets/Bitcamp_StarrySkyBackground.png");
+ }
+
+ .sticky-img {
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 0;
+    float: right;
+ }
