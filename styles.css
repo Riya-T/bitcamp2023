@@ -755,3 +755,7 @@ body {
     bottom:0px;
 }
 
+.money-float{
+    float: left;
+}
+
