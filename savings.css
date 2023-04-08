@@ -1,0 +1,22 @@
+#main-holder {
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    opacity: 0.9;
+    padding-top: 10%;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  
+  }
+  .elements{
+    padding-bottom: 40%;
+  }
