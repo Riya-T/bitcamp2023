@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: #44107a;
+    background: #FF703F;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -31,8 +31,7 @@
 
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #FCFCFB;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -65,7 +64,7 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: #FCFCFB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,15 +93,15 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #528DA7;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #528DA7);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #528DA7);
     color: #fff;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #9518fc;
+    color: #528DA7;
     transition: all 0.3s ease;
 }
 
@@ -246,11 +245,11 @@
     background: #da22ff;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right,
-            #9114ff,
+            #528DA7,
             #da22ff);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right,
-            #8f0eff,
+            #528DA7,
             #da22ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
@@ -261,7 +260,7 @@
 }
 
 .highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
+    border-bottom: 4px solid #528DA7;
 }
 
 @media screen and (max-width: 768px) {
@@ -337,9 +336,9 @@
 
 .main__btn {
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #528DA7;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #528DA7);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #528DA7);
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -743,3 +742,15 @@ body {
     top: 0;
     float: right;
  }
+
+ #marshmallow-grass{
+    background-image: url("assets/Bitcamp_Grass_copy.png");
+    height: 150px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+ }
+ .fix{
+    position:fixed;
+    bottom:0px;
+}
