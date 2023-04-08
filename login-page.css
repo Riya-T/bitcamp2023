@@ -7,11 +7,10 @@ html {
 body {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Copperplate, Papyru;
   display: grid;
   justify-items: center;
   align-items: center;
-  background-image: url('Bitcamp_FullImage.png');
 }
 
 #main-holder {
@@ -20,8 +19,9 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 7px;
+  opacity: 0.9;
   
 }
 
@@ -33,21 +33,26 @@ body {
   align-items: center;
 }
 
-
 .login-form-field {
   border: none;
-  
+  align-items: center;
   padding: 0px 0px 5px 5px;
 }
 
+.login-button{
+  top: 5px;
+  
+  color: orange;
+  padding: 7px 15px;
+}
 #login-form-submit {
   width: 100%;
-  padding: 7px;
+  padding: 0px;
   border: none;
   border-radius: 5px;
   
   font-weight: bold;
-  background-color: #3a3a3a;
+  background-color: whitesmoke;
   cursor: pointer;
   outline: none;
 }
