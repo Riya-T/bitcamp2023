@@ -61,4 +61,14 @@ body {
   transition: all 0.3s ease;
 }
 
+#login-button {
+  width:auto;
+  height:auto;
+}
+
+#signup-button {
+  width:auto;
+  height:auto;
+}
+
 

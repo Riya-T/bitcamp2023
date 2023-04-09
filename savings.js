@@ -7,7 +7,16 @@ function updateSavings() {
     if (!(isNaN(parseInt(add)))){
         document.getElementById("current").innerHTML = parseInt(document.getElementById("current").innerHTML) + parseInt(add);
     }
-    if (parseInt(document.getElementById("current").innerHTML) >= parseInt(document.getElementById("goal").innerHTML)){
+    if (parseInt(document.getElementById("current").innerHTML) >= parseInt(document.getElementById("goal").innerHTML) && document.getElementById("goal1").checked && document.getElementById("goal2").checked && document.getElementById("goal3").checked){
+        button = document.getElementById("savings-submit");
+        button.value = "Shoot for the Moon!";
+        ready = true;
+    }
+
+}
+
+function updateSavingsCheckbox() {
+    if (parseInt(document.getElementById("current").innerHTML) >= parseInt(document.getElementById("goal").innerHTML) && document.getElementById("goal1").checked && document.getElementById("goal2").checked && document.getElementById("goal3").checked){
         button = document.getElementById("savings-submit");
         button.value = "Shoot for the Moon!";
         ready = true;

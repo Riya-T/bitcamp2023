@@ -5,35 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Savings </title>
+    <title>Marshmallow Moonbase</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="login-page.css">
 </head>
 
 <body>
-<!-- Navbar Section -->
-<nav class="navbar">
-    <a class="navbar-brand" href="/"></a>
-    <div class="navbar__container">
-        <a href="index.html" id="navbar__logo">Shoot for the Moon!</a>
-        <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span> <span class="bar"></span>
-            <span class="bar"></span>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="/"></a>
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">Marshmallow Moonbase</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="form.html" class="navbar__links" id="login">Log In</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="sign-up.html" class="button" id="signup">Sign Up</a>
+                </li>
+            </ul>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="form.html" class="navbar__links" id="login">Log In</a>
-            </li>
-            <li class="navbar__btn">
-                <a href="sign-up.html" class="button" id="signup">Sign Up</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    </nav>
     <img src="assets/Bitcamp_MoonHouseTop_copy.png" alt="" width="auto" height="auto" class="sticky-img">
     <div class="hero">
         <div class="form">
-            <h1 class="form-header">My Saving Goal</h1>
+            <h1 class="form-header">My Goals</h1>
+            <br>
+            <div>
+                <input type="checkbox" id="goal1" name="goal1" value="goal1" style="float:left; margin-right:10px" onclick="updateSavingsCheckbox()">
+                <label class="form-header" for="goal1" style="float:left"> Learn about your state’s first-time homebuyer’s programs</label><br>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="goal2" name="goal2" value="goal2" style="float:left; margin-right:10px" onclick="updateSavingsCheckbox()">
+                <label class="form-header" for="goal2" style="float:left;"> Look for low-down payment mortages</label><br>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="goal3" name="goal3" value="goal3" style="float:left; margin-right:10px" onclick="updateSavingsCheckbox()">
+                <label class="form-header" for="goal3" style="float:left"> Learn about post-mortage insurance </label><br>
+            </div>
             <br>
             <h3 class="form-header" id="money">
                 <div class="money-float">$</div>
