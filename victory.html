@@ -1,1 +1,21 @@
-<p>Yay!</p>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoot For the Moon!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpeg" />
+</head>
+
+<body>
+    <img id="animation" src="assets/MoonMellowLanding.png" alt="Marshie is being launched to the moon!" width="100%" height="100%">
+</body>
+
+<script>
+    window.onload = function() {
+        setTimeout(function(){
+            document.getElementById("animation").src="assets/MoonMellowEndSky_copy.png";
+    }, 2000);
+    }
+</script>
+</html>
