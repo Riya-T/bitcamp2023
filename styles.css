@@ -98,6 +98,11 @@
     transition: all 0.3s ease;
 }
 
+.button:hover {
+    color: #FF703F;
+    transition: all 0.3s ease;
+}
+
 .navbar__links:hover {
     color: #528DA7;
     transition: all 0.3s ease;
@@ -755,5 +760,24 @@ body {
 
 .money-float{
     float: left;
+}
+
+.button-special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #FFF141;
+    color: #528DA7;
+    transition: all 0.3s ease;
+}
+
+.button-special:hover {
+    color: #FF703F;
+    transition: all 0.3s ease;
 }
 
